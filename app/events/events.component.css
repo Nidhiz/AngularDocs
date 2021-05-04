@@ -1,0 +1,28 @@
+.container-fluid {
+
+    background-color:cornflowerblue;
+    width: 100%;
+    padding: 20px;
+    color: white;
+  }
+  .table{
+    margin-top: 20px;
+    table-layout: fixed;
+    border: 0.5px grey;
+    padding: 10px;
+    box-shadow: 2px 5px  #bfbfbf;
+  }
+  tr td{
+    padding: 20px;
+  }
+  td{
+    font-size: 18px;
+    
+  }
+  .links{
+    background-color: #e6e6e6;
+  }
+  h1{
+    font-size: 30px;
+  }
+ 

@@ -1,0 +1,27 @@
+.container-fluid {
+
+    background-color:cornflowerblue;
+    width: 100%;
+    padding: 20px;
+    color: white;
+  }
+  p{
+    font-size: 18px;
+  }
+
+  .button {
+    background-color:#188ff2;
+    border: none;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .button:hover {
+    transform: scale(1.2);
+  }

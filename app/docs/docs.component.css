@@ -1,0 +1,19 @@
+.card-footer{
+    background-color: 	#b3d9ff; color: blue; font-size: 15px;
+}
+.card-title{
+    margin-top: 20px;
+    color: blue;
+}
+.card{
+    width: 28rem;
+    height: 20rem;
+}
+.card-text{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

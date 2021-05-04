@@ -1,0 +1,65 @@
+<div class="container-fluid" style=" background-color:cornflowerblue; color: white;">
+    <h1>EXPLORE ANGULAR RESOURCES</h1>
+</div>
+    
+     <div style="margin-left: 30px;margin-right: 30px;margin-top: 20px;margin-bottom: 30px;">
+    
+        <div class="container" style="margin-top: 40px;">
+            <div class="col-md-12 text-center">
+                <button (click) = developmentDisplay() type="button" class="btn btn-primary btn-lg">DEVELOPMENT</button>       
+                <button (click) = educationalDisplay() type="button" class="btn btn-primary btn-lg">EDUCATION</button>
+                <button (click) = communityDisplay() type="button" class="btn btn-primary btn-lg">COMMUNITY</button>
+            </div>
+
+            <div *ngIf = "isDevelopment">
+                <div class="card">
+                    <div class="card-header">
+                      <h1>IDEs</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <h2>Angular IDE for Webclipse</h2>
+                            <p>Build first and foremost for Angular. Turnkey setup for beginners; powerful for experts</p>
+                        </div>
+                    </div>
+                  </div>
+
+            </div>
+            <div *ngIf = "isEducational">
+                <div class="card">
+                    <div class="card-header">
+                      <h1>Books</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            <h2>Angular Router</h2>
+                            <p>Build first and foremost for Angular. Turnkey setup for beginners; powerful for experts</p>
+                        </div>
+                        <div class="container-fluid">
+                            <h2>Angular Router</h2>
+                            <p>Build first and foremost for Angular. Turnkey setup for beginners; powerful for experts</p>
+                        </div>
+                    </div>
+                  </div>
+
+            </div>
+            <div *ngIf = "isCommunity">
+                <div class="card">
+                    <div class="card-header">
+                      <h1>Community Curation</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="container-fluid">
+                            
+                            <h2>Angular Builder</h2>
+                            <p>A collections of Angular builder for your Angular projects</p>
+                       
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    
+    </div>
